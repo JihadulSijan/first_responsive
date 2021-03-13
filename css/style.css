@@ -1,0 +1,122 @@
+/* font-family: 'PT Sans', sans-serif; */
+
+/* Common Start */
+
+/* Common End */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Header Start */
+header {
+    background-color: #fcdb00;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.menu li a {
+    font-size: 17pt;
+    font-weight: 700;
+    color: #000 !important;
+}
+
+.menu li {
+    padding-right: 71px;
+}
+
+.menu li:last-child {
+    padding-right: 0;
+}
+
+.menu li a:hover {
+    color: rgb(255, 27, 27) !important;
+}
+
+/* Header End */
+
+/* Banner Start */
+.slider {
+    background-color: #fcdb00;
+    min-height: 600px;
+}
+
+.banner_details {
+    margin-top: 50px;
+}
+
+.banner_details h1 {
+    font-size: 25pt;
+    font-weight: 700;
+    color: #000000;
+}
+
+.banner_details h3 {
+    margin: 20px 0;
+    font-size: 19pt;
+    font-weight: 400;
+    color: #313841;
+}
+
+.banner_details p {
+    margin-bottom: 20px;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #313841;
+}
+
+.banner_details ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.banner_details ul li {
+    padding-left: 50px;
+    display: inline-block;
+    
+}
+
+.banner_details ul li:first-child {
+    padding-left: 0;
+}
+
+.banner_details ul li a {
+    color: #000000 !important;
+    font-size: 60px;
+    
+}
+
+.banner_details ul li:hover a i{
+    font-size: 70px;
+    color:red;
+    transition: 0.3s;
+}
+
+.margin_bottom {
+    margin-bottom: -6rem;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../images/chevron-circle-left-solid.svg);
+}
+
+.carousel-control-prev{
+    width:10%;
+    height: 20px;
+    top:50%;
+    opacity: 0.1;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/chevron-circle-right-solid.svg);
+}
+
+.carousel-control-next {
+    width:10%;
+    height: 20px;
+    top:50%;
+    opacity: 0.1;
+}
+
+/* Banner End */

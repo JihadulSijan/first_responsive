@@ -1,0 +1,235 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media(max-width: 425.98px) { 
+
+    .nav {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        padding-right: 0;
+    }
+
+    .banner_margin_top {       
+        margin-top: -57px;
+    }
+    .slider {
+        height: 1119px;
+    }
+
+    .banner_details h1 {
+        font-size: 38pt;
+    }
+
+    .banner_details h3 {
+        font-size: 16pt;
+    }
+
+    .banner_details p {
+        font-size: 12pt;
+    }
+
+    img {
+        width:100%;
+    }
+
+    .margin-bottom {
+        margin-bottom: -3.5rem;
+    }
+ }
+
+
+ @media (min-width: 426px) and (max-width:575.98px) {
+    .nav {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        padding-right: 0;
+    }
+
+    .banner_margin_top {       
+        margin-top: -57px;
+    }
+    .slider {
+        height: 992px;
+    }
+
+    .banner_details h1 {
+        font-size: 38pt;
+    }
+
+    .banner_details h3 {
+        font-size: 16pt;
+    }
+
+    .banner_details p {
+        font-size: 12pt;
+    }
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .nav {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        padding-right: 0;
+    }
+
+    .banner_margin_top {       
+        margin-top: -57px;
+    }
+    .slider {
+        min-height: 1005px;
+    }
+
+    .banner_details h1 {
+        font-size: 38pt;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991.98px) {
+
+    .nav {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        padding-right: 0;
+    }
+
+    .banner_details h1 {
+        font-size: 45pt;
+    }
+
+    .banner_details ul li a {
+        color: #000000 !important;
+        font-size: 80px;
+    }
+
+    .banner_details p {
+        margin-bottom: 30px;
+    }
+
+    .banner_details ul {
+        margin-bottom: 30px;
+    }
+
+    .slider {
+        background-color: #fcdb00;
+        min-height: 1066px;
+    }
+}
+
+/* Another Start */
+@media (min-width:992px) and (max-width: 1023.98px) {
+    .phone_margin {
+        margin-right: 111px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .banner_details h3 {
+        margin: 11px 0;
+        font-size: 22px;
+    }
+
+    .banner_details p {
+        margin-bottom: 11px;
+        font-size: 12pt;
+    }
+
+    .banner_details ul li a {
+        font-size: 50px;
+    }
+
+    .slider {
+        min-height: 504px;
+    }
+
+    .margin_bottom {
+        margin-bottom: -4rem;
+    }
+}
+/* Another End */
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width:1024px) and (max-width: 1199.98px) {
+    .phone_margin {
+        margin-right: 111px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .banner_details h3 {
+        margin: 11px 0;
+        font-size: 22px;
+    }
+
+    .banner_details p {
+        margin-bottom: 11px;
+        font-size: 12pt;
+    }
+
+    .banner_details ul li a {
+        font-size: 50px;
+    }
+
+    .slider {
+        min-height: 504px;
+    }
+
+    .margin_bottom {
+        margin-bottom: -4rem;
+    }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width: 1399.98px) {
+    .phone_margin {
+        margin-right: 52px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .banner_details {
+        margin-top: 75px;
+    }
+
+    .banner_details h1 {
+        font-size: 28pt;
+    }
+
+    .banner_details h3 {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    .banner_details p {
+        margin-bottom: 15px;
+        font-size: 14pt;
+    }
+
+    .banner_details ul li a {
+        font-size: 55px;
+    }
+
+    .margin_bottom {
+        margin-bottom: -4rem;
+    }
+}
